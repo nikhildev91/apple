@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+.learn:hover{
+   border-bottom: blue solid 1px;
+}
+
+.hero_img{
+    width: 20em;
+    height: 25em;
+    display: flex;
+
+ 
+}
+.apple{
+    text-align: center;
+    
+}
+.menu{
+    font-size: 0.8em;
+}
+
+.img_hero{
+    width: 20px;
+    height: 20px;
+}
+.navbar-nav{
+   margin-left: 8em;
+
+}
+.nav-icon{
+    margin-top: 0.4em;
+margin-left: 1em;
+}
+.hambuger_menu{
+    background-color: white;
+}
+.iphone{
+ text-align: center;
+ font-weight: bold;
+ padding-top: 1em;
+ font-size: 3em;
+}
+.oh{
+    text-align: center;
+    font-size: 2em;
+}
+.iphone13{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 3em;
+}
+.super-power{
+    color: #FEC2EB;
+    font-size: 2em;
+    text-align: center;
+}
+.macbook{
+    text-align: center;
+    font-size: 2em;
+    
+}
+.available{
+    text-align: center;
+    color: #C6C6C9;
+}
+.airpods{
+    padding-top: 14em;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+}
+.spatial{
+    text-align: center;
+    font-size: 1.3em;
+
+}
+.available1{
+    text-align: center;
+    font-size: 0.8em;
+    color: #C6C6C9;
+}
+.homepod{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1em;
+}
+.watch-logo{
+   width: 8em;
+   margin: auto;
+   display: block;
+   padding-top: 0.5em;
+}
+.new{
+    text-align: center;
+    font-size: 0.7em;
+    color: red;
+    padding-top: 4em;
+}
+.promo-logo{
+    margin: auto;
+    display: block;
+    padding-top: 3.5em;
+width: 10em;
+
+}
+.card-logo{
+    width: 10em;
+    margin: auto;
+    display: block;
+    padding-top: 3em;
+}
+.apple-tv{
+    width: 5em;
+margin: auto;
+display: block;
+padding-top: 5em;
+}
+.puppy-title{
+    margin: auto;
+display: block;
+width: 15em;
+padding-top: 23em;
+}
+.stream{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding-top: 1em;
+  
+}
+.description{
+    background-color: #F5F5F7;
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    font-size: 0.8em;
+    color: #6E6E73;
+
+}
+.line{
+    width: 100%;
+   
+}
+@media only screen and (max-width: 830px) {
+    .footer{
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 830px){
+      .mini_footer{
+          display: none;
+      }
+  }
+  .accordion {
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    transition: 0.4s;
+    border-bottom: #6E6E73 solid 1px;
+  }
+  
+  .active, .accordion:hover {
+    color:black; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+  }
